@@ -20,6 +20,7 @@ def get_currency(label: str):
 
         if currency not in CURRENCIES:
             print("Invalid currency!")
+            continue
         
         return currency
 
