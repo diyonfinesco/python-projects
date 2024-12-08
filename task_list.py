@@ -29,9 +29,9 @@ def get_choice():
 
 def add_task():
     while True:
-        task = input("Enter a new task: ")
+        task = input("Enter a new task: ").strip()
 
-        if task == "" or task == " ":
+        if task == "":
             print("Invalid task!")
             continue
 
